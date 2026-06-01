@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" font-family="Manrope, system-ui, sans-serif">
+  <rect width="800" height="470" fill="#f8f5f0"/>
+  <rect width="800" height="56" fill="#ffffff"/>
+  <circle cx="28" cy="28" r="6" fill="#e0a09a"/><circle cx="50" cy="28" r="6" fill="#e6cf9a"/><circle cx="72" cy="28" r="6" fill="#a9cdb0"/>
+  <rect x="110" y="16" width="470" height="24" rx="12" fill="#f1ece3"/>
+  <text x="128" y="33" font-size="12" fill="#6b665d" font-family="JetBrains Mono, monospace">book-borrowing-platform.vercel.app</text>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#e4ded3"/>
+  <text x="40" y="104" font-size="26" font-weight="600" fill="#1c1a17" font-family="Newsreader, serif">Library Catalog</text>
+  <!-- sidebar categories -->
+  <rect x="40" y="130" width="170" height="300" rx="16" fill="#ffffff" stroke="#e4ded3"/>
+  <text x="62" y="162" font-size="13" font-weight="600" fill="#1c1a17">Categories</text>
+  <rect x="62" y="180" width="126" height="26" rx="13" fill="#c0573a"/><text x="76" y="197" font-size="12" fill="#ffffff">Fiction</text>
+  <rect x="62" y="214" width="126" height="12" rx="6" fill="#e4ded3"/>
+  <rect x="62" y="240" width="100" height="12" rx="6" fill="#e4ded3"/>
+  <rect x="62" y="266" width="116" height="12" rx="6" fill="#e4ded3"/>
+  <rect x="62" y="292" width="90" height="12" rx="6" fill="#e4ded3"/>
+  <rect x="62" y="318" width="108" height="12" rx="6" fill="#e4ded3"/>
+  <!-- book grid -->
+  <g>
+    <!-- row 1 -->
+    <rect x="232" y="130" width="120" height="140" rx="10" fill="#e3d7cf"/><rect x="232" y="130" width="14" height="140" rx="6" fill="#c0573a"/>
+    <rect x="372" y="130" width="120" height="140" rx="10" fill="#e9e2d6"/><rect x="372" y="130" width="14" height="140" rx="6" fill="#1c1a17"/>
+    <rect x="512" y="130" width="120" height="140" rx="10" fill="#ecd9d2"/><rect x="512" y="130" width="14" height="140" rx="6" fill="#c0573a"/>
+    <rect x="652" y="130" width="108" height="140" rx="10" fill="#e3d7cf"/><rect x="652" y="130" width="14" height="140" rx="6" fill="#1c1a17"/>
+    <!-- row 2 -->
+    <rect x="232" y="290" width="120" height="140" rx="10" fill="#ecd9d2"/><rect x="232" y="290" width="14" height="140" rx="6" fill="#1c1a17"/>
+    <rect x="372" y="290" width="120" height="140" rx="10" fill="#e3d7cf"/><rect x="372" y="290" width="14" height="140" rx="6" fill="#c0573a"/>
+    <rect x="512" y="290" width="120" height="140" rx="10" fill="#e9e2d6"/><rect x="512" y="290" width="14" height="140" rx="6" fill="#c0573a"/>
+    <rect x="652" y="290" width="108" height="140" rx="10" fill="#ecd9d2"/><rect x="652" y="290" width="14" height="140" rx="6" fill="#1c1a17"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" font-family="Manrope, system-ui, sans-serif">
+  <rect width="800" height="470" fill="#f8f5f0"/>
+  <rect width="800" height="56" fill="#ffffff"/>
+  <circle cx="28" cy="28" r="6" fill="#e0a09a"/><circle cx="50" cy="28" r="6" fill="#e6cf9a"/><circle cx="72" cy="28" r="6" fill="#a9cdb0"/>
+  <rect x="110" y="16" width="430" height="24" rx="12" fill="#f1ece3"/>
+  <text x="128" y="33" font-size="13" fill="#6b665d" font-family="JetBrains Mono, monospace">digitaltoolbuyingapp-sj.netlify.app</text>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#e4ded3"/>
+  <text x="40" y="104" font-size="26" font-weight="600" fill="#1c1a17" font-family="Newsreader, serif">Digital Tools</text>
+  <!-- cart pill -->
+  <rect x="648" y="80" width="112" height="36" rx="18" fill="#1c1a17"/>
+  <circle cx="676" cy="98" r="7" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="700" y="103" font-size="13" font-weight="600" fill="#ffffff">Cart</text>
+  <circle cx="744" cy="88" r="9" fill="#c0573a"/><text x="744" y="92" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <!-- product grid -->
+  <g>
+    <rect x="40" y="134" width="172" height="296" rx="16" fill="#ffffff" stroke="#e4ded3"/>
+    <rect x="56" y="150" width="140" height="120" rx="10" fill="#e9e2d6"/>
+    <rect x="56" y="286" width="120" height="12" rx="6" fill="#cfc8ba"/><rect x="56" y="308" width="80" height="10" rx="5" fill="#e4ded3"/>
+    <text x="56" y="356" font-size="20" font-weight="700" fill="#1c1a17" font-family="Newsreader, serif">$29</text>
+    <rect x="56" y="376" width="140" height="36" rx="18" fill="#c0573a"/><text x="126" y="399" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Add to cart</text>
+  </g>
+  <g>
+    <rect x="228" y="134" width="172" height="296" rx="16" fill="#ffffff" stroke="#e4ded3"/>
+    <rect x="244" y="150" width="140" height="120" rx="10" fill="#e3d7cf"/>
+    <rect x="244" y="286" width="120" height="12" rx="6" fill="#cfc8ba"/><rect x="244" y="308" width="80" height="10" rx="5" fill="#e4ded3"/>
+    <text x="244" y="356" font-size="20" font-weight="700" fill="#1c1a17" font-family="Newsreader, serif">$49</text>
+    <rect x="244" y="376" width="140" height="36" rx="18" fill="#c0573a"/><text x="314" y="399" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Add to cart</text>
+  </g>
+  <g>
+    <rect x="416" y="134" width="172" height="296" rx="16" fill="#ffffff" stroke="#e4ded3"/>
+    <rect x="432" y="150" width="140" height="120" rx="10" fill="#ecd9d2"/>
+    <rect x="432" y="286" width="120" height="12" rx="6" fill="#cfc8ba"/><rect x="432" y="308" width="80" height="10" rx="5" fill="#e4ded3"/>
+    <text x="432" y="356" font-size="20" font-weight="700" fill="#1c1a17" font-family="Newsreader, serif">$19</text>
+    <rect x="432" y="376" width="140" height="36" rx="18" fill="#c0573a"/><text x="502" y="399" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Add to cart</text>
+  </g>
+  <g>
+    <rect x="604" y="134" width="156" height="296" rx="16" fill="#ffffff" stroke="#e4ded3"/>
+    <rect x="620" y="150" width="124" height="120" rx="10" fill="#e9e2d6"/>
+    <rect x="620" y="286" width="104" height="12" rx="6" fill="#cfc8ba"/><rect x="620" y="308" width="70" height="10" rx="5" fill="#e4ded3"/>
+    <text x="620" y="356" font-size="20" font-weight="700" fill="#1c1a17" font-family="Newsreader, serif">$39</text>
+    <rect x="620" y="376" width="124" height="36" rx="18" fill="#c0573a"/><text x="682" y="399" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Add to cart</text>
+  </g>
+</svg>

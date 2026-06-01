@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satyajit Barua — Front-End Developer & React Specialist</title>
+  <meta name="description" content="Satyajit Barua — Front-End Developer, React Specialist, and QA Automation Engineer with 10+ years building fast, accessible, enterprise-grade web applications." />
+
+  <!-- Google Fonts: Newsreader (display serif) + Manrope (body) + JetBrains Mono (labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#hero" class="logo">Satyajit<span class="logo-dot">.</span></a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a href="Satyajit_Barua_Resume.pdf" download class="nav-resume">Resume ↓</a>
+        <a href="#contact" class="nav-cta">Let's talk</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Available for freelance &amp; full-time work</p>
+
+          <h1 class="hero-title reveal">
+            Front-end built right,
+            <span class="accent">tested to the core.</span>
+          </h1>
+
+          <p class="hero-bio reveal">
+            I'm <strong>Satyajit Barua</strong> — a Front-End Developer, React Specialist, and
+            QA Automation Engineer with 10+ years building enterprise-grade web apps. I pair modern
+            React craftsmanship with a rare quality-assurance mindset, so everything I ship is
+            reliable, fast, and built to last.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="Satyajit_Barua_Resume.pdf" download class="btn btn-ghost">Download resume ↓</a>
+          </div>
+
+          <div class="hero-socials reveal">
+            <a href="https://github.com/satyajtus14" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/satyajit-barua" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="mailto:baruattbbk@yahoo.com">Email ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-figure reveal">
+          <div class="hero-photo">
+            <img src="portrait.jpg" alt="Portrait of Satyajit Barua" />
+          </div>
+          <div class="hero-badge">
+            <span class="hero-badge-num">10+</span>
+            <span class="hero-badge-label">years of<br />experience</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- marquee strip of technologies -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>React 18+</span><span>TypeScript</span><span>Next.js</span><span>Tailwind CSS</span>
+          <span>React Query</span><span>Playwright</span><span>Selenium</span><span>WCAG 2.1</span>
+          <span>Vite</span><span>Zustand</span>
+          <span>React 18+</span><span>TypeScript</span><span>Next.js</span><span>Tailwind CSS</span>
+          <span>React Query</span><span>Playwright</span><span>Selenium</span><span>WCAG 2.1</span>
+          <span>Vite</span><span>Zustand</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label">01 — About me</p>
+        <div class="about-grid">
+          <div class="about-figure reveal">
+            <img src="headshot.jpg" alt="Satyajit Barua" />
+          </div>
+
+          <div class="about-text reveal">
+            <h2 class="section-title">A developer who thinks like a tester.</h2>
+            <p>
+              For over a decade I've lived on both sides of the software line — building polished
+              React interfaces and rigorously testing them. That dual perspective means I catch
+              the edge cases before your users ever do.
+            </p>
+            <p>
+              I specialize in <strong>React v-18+</strong>, <strong>TypeScript</strong>, and modern
+              front-end ecosystems including Tailwind CSS, Styled Components, and React Router v6 —
+              with custom hooks, the Context API, Suspense/lazy loading, and real performance work.
+            </p>
+            <p>
+              On the quality side I bring deep experience with Playwright, Selenium, and Azure
+              DevOps — uniquely positioned to bridge development and QA in Agile teams.
+            </p>
+            <a href="#contact" class="btn btn-primary about-cta">Work with me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <p class="section-label">02 — Services</p>
+        <h2 class="section-title">What I can do for you</h2>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-index">01</span>
+            <h3>Front-End Development</h3>
+            <p>Responsive, component-driven SPAs built with React 18+, TypeScript, and clean, reusable architecture.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index">02</span>
+            <h3>QA Automation &amp; Testing</h3>
+            <p>End-to-end and regression coverage with Playwright, Selenium, Jest, and React Testing Library.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index">03</span>
+            <h3>Performance Optimization</h3>
+            <p>Code splitting, lazy loading, memoization, and bundle analysis to hit 90+ Lighthouse scores.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index">04</span>
+            <h3>Accessibility (a11y)</h3>
+            <p>WCAG 2.1 &amp; Section 508 compliance, ARIA roles, keyboard navigation, and screen-reader testing.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index">05</span>
+            <h3>State &amp; Data Management</h3>
+            <p>Context API, Redux Toolkit, Zustand, and React Query for reliable, cache-aware data flows.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-index">06</span>
+            <h3>Component Libraries</h3>
+            <p>Reusable, themeable UI systems with Tailwind, DaisyUI, Styled Components, and Storybook.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label">03 — Skills</p>
+        <h2 class="section-title">My toolkit</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>React &amp; Core</h3>
+            <ul class="tags">
+              <li>React 18+</li><li>JSX</li><li>Functional Components</li>
+              <li>Hooks</li><li>Custom Hooks</li><li>Error Boundaries</li><li>React.memo</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>State &amp; Data</h3>
+            <ul class="tags">
+              <li>Context API</li><li>Redux Toolkit</li><li>Zustand</li>
+              <li>React Query</li><li>Axios</li><li>Fetch API</li><li>async/await</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Languages</h3>
+            <ul class="tags">
+              <li>JavaScript (ES6+)</li><li>TypeScript</li><li>HTML5</li>
+              <li>CSS3</li><li>Python</li><li>C#</li><li>C/C++</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Styling</h3>
+            <ul class="tags">
+              <li>Tailwind CSS</li><li>DaisyUI</li><li>Styled Components</li>
+              <li>CSS Modules</li><li>CSS Variables</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Testing &amp; QA</h3>
+            <ul class="tags">
+              <li>Playwright</li><li>Selenium WebDriver</li><li>Jest</li>
+              <li>React Testing Library</li><li>Vitest</li><li>HP UFT</li><li>Azure DevOps</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tooling</h3>
+            <ul class="tags">
+              <li>Vite</li><li>Next.js</li><li>Storybook</li>
+              <li>ESLint</li><li>Prettier</li><li>Git / GitHub</li><li>VS Code</li><li>Docker basics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="section-label">04 — Projects</p>
+        <h2 class="section-title">Selected work</h2>
+
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project-media">
+              <div class="browser-bar">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="browser-url">studynook-apps-frontend.vercel.app</span>
+              </div>
+              <!-- Live preview: the mockup shows first; clicking loads the real site in an iframe. -->
+              <div class="preview-stage" data-live="https://studynook-apps-frontend.vercel.app">
+                <img class="preview-poster" src="project-1.svg" alt="StudyNook — Study Room Booking Platform preview" loading="lazy" />
+                <!-- <button class="preview-load" type="button" aria-label="Load live preview of StudyNook — Study Room Booking Platform">
+                  <span class="play">▶</span> Load live preview
+                </button> -->
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="project-no">01</span>
+              </div>
+              <h3>StudyNook — Study Room Booking Platform</h3>
+              <p>A full-stack app where students list, browse, search, filter, and book study rooms by date and time. JWT authentication with protected routes, Zustand state, and Prisma + PostgreSQL for reliable data. Fully responsive and deployed to Vercel.</p>
+              <ul class="tags">
+                <li>Next.js</li><li>React</li><li>Tailwind CSS</li><li>Zustand</li><li>PostgreSQL</li><li>Prisma</li><li>JWT</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://studynook-apps-frontend.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live demo ↗</a>
+                <a href="https://github.com/satyajtus14/StudyNook-FrontEnd" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">View code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media">
+              <div class="browser-bar">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="browser-url">book-borrowing-platform.vercel.app</span>
+              </div>
+              <!-- Live preview: the mockup shows first; clicking loads the real site in an iframe. -->
+              <div class="preview-stage" data-live="https://project-on-online-book-borrowing-pl-henna.vercel.app">
+                <img class="preview-poster" src="project-2.svg" alt="Online Book Borrowing Platform preview" loading="lazy" />
+                <!-- <button class="preview-load" type="button" aria-label="Load live preview of Online Book Borrowing Platform">
+                  <span class="play">▶</span> Load live preview
+                </button> -->
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="project-no">02</span>
+              </div>
+              <h3>Online Book Borrowing Platform</h3>
+              <p>A digital library where users browse a catalog, filter by category, and borrow titles online. Secure auth with JWT & bcryptjs, profiles and borrow history via Next.js API routes, and Mongoose schemas in MongoDB Atlas. SSR for fast loads and better SEO.</p>
+              <ul class="tags">
+                <li>Next.js</li><li>React</li><li>Tailwind CSS</li><li>MongoDB</li><li>Mongoose</li><li>JWT</li><li>BetterAuth</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://project-on-online-book-borrowing-pl-henna.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live demo ↗</a>
+                <a href="https://github.com/satyajtus14/Project-On-Online-Book-Borrowing-Platform" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">View code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media">
+              <div class="browser-bar">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="browser-url">project-keenkeeper-apps.netlify.app</span>
+              </div>
+              <!-- Live preview: the mockup shows first; clicking loads the real site in an iframe. -->
+              <div class="preview-stage" data-live="https://project-keenkeeper-apps.netlify.app/">
+                <img class="preview-poster" src="project-3.svg" alt="KeenKeeper — Data Visualization Dashboard preview" loading="lazy" />
+                <!-- <button class="preview-load" type="button" aria-label="Load live preview of KeenKeeper — Data Visualization Dashboard">
+                  <span class="play">▶</span> Load live preview
+                </button> -->
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="project-no">03</span>
+              </div>
+              <h3>KeenKeeper — Data Visualization Dashboard</h3>
+              <p>An interactive dashboard rendering charts and graphs from structured data with Recharts. Client-side routing via React Router DOM, modular reusable components, and a fully responsive Tailwind layout. Built with Vite and deployed to Netlify.</p>
+              <ul class="tags">
+                <li>React.js</li><li>Tailwind CSS</li><li>React Router DOM</li><li>Recharts</li><li>Vite</li><li>Netlify</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://project-keenkeeper-apps.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live demo ↗</a>
+                <a href="https://github.com/satyajtus14/Project-KeenKeeper-Apps" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">View code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media">
+              <div class="browser-bar">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="browser-url">digitaltoolbuyingapp-sj.netlify.app</span>
+              </div>
+              <!-- Live preview: the mockup shows first; clicking loads the real site in an iframe. -->
+              <div class="preview-stage" data-live="https://digitaltoolbuyingapp-sj.netlify.app/">
+                <img class="preview-poster" src="project-4.svg" alt="Digital Tools E-Commerce Website preview" loading="lazy" />
+                <!-- <button class="preview-load" type="button" aria-label="Load live preview of Digital Tools E-Commerce Website">
+                  <span class="play">▶</span> Load live preview
+                </button> -->
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="project-no">04</span>
+              </div>
+              <h3>Digital Tools E-Commerce Website</h3>
+              <p>A full-featured e-commerce SPA for browsing and buying digital tools — with product search, filtering, and cart management. DaisyUI on top of Tailwind for a polished, accessible UI, React Toastify for live feedback, and persistent cart via LocalForage.</p>
+              <ul class="tags">
+                <li>React.js</li><li>JavaScript (ES6+)</li><li>Tailwind CSS</li><li>DaisyUI</li><li>React Router DOM</li><li>React Toastify</li><li>Vite</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://digitaltoolbuyingapp-sj.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live demo ↗</a>
+                <a href="https://github.com/satyajtus14/Project-Digital-Tools-Buying-Website" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">View code ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <p class="section-label">05 — Work process</p>
+        <h2 class="section-title">How I work</h2>
+
+        <ol class="timeline">
+          <li class="tl-step reveal">
+            <div class="tl-marker"><span>01</span></div>
+            <div class="tl-content">
+              <h3>Discover</h3>
+              <p>Understand requirements, users, and constraints. Define scope and success metrics.</p>
+            </div>
+          </li>
+          <li class="tl-step reveal">
+            <div class="tl-marker"><span>02</span></div>
+            <div class="tl-content">
+              <h3>Design</h3>
+              <p>Plan component structure, state, and accessibility before a single line of UI.</p>
+            </div>
+          </li>
+          <li class="tl-step reveal">
+            <div class="tl-marker"><span>03</span></div>
+            <div class="tl-content">
+              <h3>Develop</h3>
+              <p>Build clean, reusable React components with TypeScript and a strong styling system.</p>
+            </div>
+          </li>
+          <li class="tl-step reveal">
+            <div class="tl-marker"><span>04</span></div>
+            <div class="tl-content">
+              <h3>Test</h3>
+              <p>Automate E2E & regression tests with Playwright and verify a11y and performance.</p>
+            </div>
+          </li>
+          <li class="tl-step reveal">
+            <div class="tl-marker"><span>05</span></div>
+            <div class="tl-content">
+              <h3>Deploy</h3>
+              <p>Ship to Vercel or Netlify with optimized builds, then monitor and iterate.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-alt" id="faq">
+      <div class="container container-narrow">
+        <p class="section-label">06 — FAQ</p>
+        <h2 class="section-title">Frequently asked</h2>
+
+        <div class="faq">
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">What kind of projects do you take on?<span class="faq-icon" aria-hidden="true"></span></button>
+            <div class="faq-a"><p>Front-end web applications and dashboards built in React/Next.js, plus QA automation work — setting up reliable E2E and regression test suites for existing products.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Do you handle both development and testing?<span class="faq-icon" aria-hidden="true"></span></button>
+            <div class="faq-a"><p>Yes — that's my specialty. With 10+ years across development and QA, I can build a feature and write the automated tests that keep it stable as it grows.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Which technologies do you prefer?<span class="faq-icon" aria-hidden="true"></span></button>
+            <div class="faq-a"><p>React 18+ with TypeScript, Tailwind CSS for styling, React Query or Zustand for state, and Playwright for testing. I adapt to your existing stack when needed.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">Are your sites responsive and accessible?<span class="faq-icon" aria-hidden="true"></span></button>
+            <div class="faq-a"><p>Always. Every interface is mobile-friendly and built to WCAG 2.1 / Section 508 standards — including ARIA roles, keyboard navigation, and screen-reader support.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">How can we start working together?<span class="faq-icon" aria-hidden="true"></span></button>
+            <div class="faq-a"><p>Send me an email describing your project and timeline. I'll reply with next steps, questions, and a rough plan to get going.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="section-label">07 — Contact</p>
+        <div class="contact-grid">
+          <div class="contact-intro reveal">
+            <h2 class="section-title">Let's build something reliable.</h2>
+            <p>Have a project in mind, or a team that needs a developer who tests his own work? I'd love to hear about it.</p>
+
+            <ul class="contact-details">
+              <li><span>Email</span><a href="mailto:sjbarua14@gmail.com">sjbarua14@gmail.com</a></li>
+              <li><span>Phone</span><a href="tel:+16466519779">+1 (646) 651-9779</a></li>
+              <li><span>Location</span><p>New York, NY</p></li>
+              <li><span>Social</span>
+                <div class="contact-social">
+                  <a href="https://github.com/satyajtus14" target="_blank" rel="noopener">GitHub</a>
+                  <a href="https://www.linkedin.com/in/satyajit-barua" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- No backend. On submit, opens the visitor's email app with the message pre-filled. -->
+          <form class="contact-form reveal" id="contactForm">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send message</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#hero" class="logo">Satyajit<span class="logo-dot">.</span></a>
+      <p class="footer-copy">© <span id="year"></span> Satyajit Barua. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#hero" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
